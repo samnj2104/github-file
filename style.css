@@ -1,0 +1,501 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+h1, h2, h3, h4, h5, h6, p { margin: 0; padding: 0%;}
+h1, h2 {
+    font-size: 50px;
+}
+h3 {
+    font-size: 20px;
+}
+h4 {
+    font-size: 14.5px;
+}
+h5 {
+    font-size: 14px;
+}
+p {
+    font-size: 18px;
+}
+.txt_dc_none {
+    text-decoration: none;
+}
+.d-flex {
+    display: flex;
+}
+.btn-small, .btn-lg {
+  height: 45px;
+  border: 1.5px solid #611f69;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.grape_clr{
+    background-color: #611f69;
+}
+.text-white {
+  color: white;
+}
+.bg-white {
+  background-color: white;
+}
+.grape_clr_text {
+  color: #611f69;
+}
+.logo_img{
+    width: 105px;
+    /* height: 25px; */
+}
+.slack{
+    width: 140px;
+    align-items: center;
+}
+.container1{
+    padding: 0px 51px;
+}
+.navbar {
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    border-radius: 500px;
+}
+nav{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.left_nav {
+   display: flex;
+   align-items: center;
+}
+
+nav ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    padding: 0;  
+    gap: 30px;      
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+.search_icon {
+    text-decoration: none;
+    padding-top: 4px;
+    padding-right: 24px;
+}
+.search_icon img {
+    height: 20px;
+    width: 20px;
+}
+form a img{
+    width: 20px;
+    height: 15px;
+    align-items: center;
+    margin-left: 120px;
+}
+.sign{
+    font-size: 15px;
+    border: transparent;
+    color: black;
+
+}
+.right_nav button {
+    margin-left: 16px;
+}
+.talk{
+    width: 148px;
+    font-size: 14px;
+    letter-spacing: .4px;
+}
+.try{
+    width: 136px;
+    font-size: 14px;
+    letter-spacing: .4px;
+}
+.banner-section {
+    padding: 62px 0px 80px 0px;
+}
+.left-bnr {
+    width: 40%;
+}
+.left-bnr h5 {
+    margin-bottom: 8px;
+}
+.left-bnr h2 {
+    margin-bottom: 8px;
+}
+.left-bnr h3 {
+    margin-bottom: 32px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.right-bnr {
+   width: 60%;
+}
+.right-bnr img {
+    float: right;
+    height: 400px;
+}
+.left-bnr .bnr-btn1 {
+    width: 152PX;
+    height: 57PX;
+}
+.left-bnr .bnr-btn2 {
+    width: 206PX;
+    height: 57PX;
+}
+.get_more-sec{
+    background-color: #F4EDE4;
+    height: auto;
+    padding: 85px 0px;
+
+}
+.getmore-heading{
+    text-align: center;
+
+}
+.percentage-box{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 145px;
+    margin-top: 70px;
+    list-style: none;
+    
+}
+.perabox{
+    margin-top: 48px;
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+.connect_faster_left, .connect_faster_right, .connect_securely_left, .connect_securely_right {
+    width: 50%;
+}
+
+.connect_faster_right h2 {
+    font-size: 45px; 
+    margin-left: 30px;
+
+}
+.connect_faster_left img {
+    height: auto;
+    width: 95%;
+    box-shadow: 0 0 2rem rgba(0,0,0,.1);
+}
+.tick_with_content li {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 1.4444;
+    margin-bottom: 16px;
+    list-style: none;
+    position: relative;
+    margin-left: 24px;
+}
+
+.tick_with_content li:before {
+    content: '';
+    position: absolute;
+    height: 70px;
+    width: 100%;
+    background-image: url(https://a.slack-edge.com/632d3/marketing/img/icons/icon_checkmark_homepage.svg);
+    background-repeat: no-repeat;
+    top: 3px;
+    left: -24px;
+}
+.connect_faster {    
+padding: 110px 0px;
+}
+
+.connect_securely_right {
+    align-items: flex-start;
+    justify-content: center;
+}
+.connect_securely_right img {
+    height: 362px;
+    width: auto;
+    margin-top: -70px;
+}
+.connect_securely_left h2 {
+    font-size: 45px;
+}
+
+.connect_securely_left .tick_with_content {
+    padding-left: 0%;
+}
+
+.connect_tools_left, .connect_tools_right {
+    width: 50%;
+    margin-top: 60px;
+}
+
+.connect_tools_left {
+    justify-content: center;
+    display: flex;
+}
+
+.connect_tools_left img {
+    height: 385px;
+    width: auto;
+}
+
+.how_to_started .row {
+    gap: 4%;
+    padding-top: 24px;
+}
+
+.how_started_header {
+    text-align: center;
+}
+
+.how_started_header p {
+   padding: 16px 0px;
+}
+
+.how_to_started .col-4 img {
+    height: 48px;
+    width: auto;
+}
+.col-4 {
+    width: 24%;
+}
+
+.how_to_started .col-4 .subtitle_htp {
+padding: 18px 0px 16px 0px;
+font-weight: 500;
+}
+
+.how_to_started .col-4 p {
+    line-height: 1.4444;
+    letter-spacing: normal;
+}
+section.how_to_started {
+    padding: 84px 0px;
+}
+.o-main-container{
+    height: 900px;
+    background-color: antiquewhite;
+
+    
+}
+.o-connect-container{
+    justify-content: center; 
+    align-items: center;   
+}
+
+.ladyimage{ 
+    width: 430px;
+    margin-top: 50px;
+    margin-left: 65px;
+}
+.buildroles{
+    width: 50%;
+    margin-top: -70px;
+    
+}
+
+.o-boxes {
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 80%;
+    margin-top: -161px;
+    margin-left: 50px;
+
+}
+.o-box {
+    background-color: white;
+    height: 260px;
+    width: 280px;
+
+}
+.coulams{
+    width: 80px;
+    height: 80px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.busi{
+    margin-left: 15px;
+}
+.pera{
+    margin-left: 15px;
+    font-style: italic;
+    font-size: small;
+}
+.arrow{
+    position:absolute;
+    width: 20px;
+    margin-top: 100px;
+    margin-left: 250px;
+}
+.orgainsation{
+    height: 700px;
+}
+.orga{
+    text-align: center;
+}
+.joinwork{
+    width: 918px;
+    margin-left: 163px;
+    margin-top: 70px;
+    font-style: oblique;
+}
+.img-o{
+    width: 380px;
+    margin-left: 150px;
+    height: 350px;
+}
+.orga-img{
+    width: 50%;
+    margin-top: 60px;
+    display: flex;
+
+}
+.imgpara0{
+    margin-top: 150px;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+
+}
+.divflex{
+    display: flex;
+}
+.Andrew{
+    margin-top: 20px;
+}
+.mainimg{
+    height: 600px;
+    background-color: white;
+    
+}
+.learnbox{
+    margin-top: 20px;
+}
+.mainimgBox {
+    position: relative;
+    background-color: white;
+    min-height: 355px;
+    border-bottom: none;
+    max-width: 236px;
+    padding: 12px;
+    box-shadow: 0 0 2rem rgba(0,0,0,.1);
+}
+
+.mainimgBox img {
+    width: 100%;
+}
+
+.mainimgBox h5 {
+    font-weight: 500;
+    padding-top: 15px;
+}
+
+.mainimgBox h3 {
+    padding: 8px 0px 16px 0px;
+}
+.mainimg .right_arw {
+    height: 20px;
+    width: auto;
+}
+.mainimg .read_more_btm{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 12px;
+    width: 90%;
+}
+
+.mainimg .read_more_btm h5{
+    padding-top: 0;
+    color: #1264a3;
+}
+
+.box-00{
+    flex-wrap: wrap;
+    margin-top: 40px;
+    gap: 65px;
+    justify-content: center;
+}
+
+.questions{
+    height: auto;
+    padding: 32px 24px 64px 24px;
+}
+.squestions{
+    margin-top: 50px;
+    gap: 50px;
+    padding-bottom: 64px;
+}
+
+.squestions h4{
+    padding: 32px 24px;
+    border-top: 1px solid #ebeaeb;
+}
+
+.squestions h4:last-child { 
+    border-bottom: 1px solid #ebeaeb;
+}
+
+.interest-connect-sec {
+    height: auto;
+    min-height: 370px;
+    background-color: #4A154B;
+    clip-path: ellipse(75% 100% at center top);
+    text-align: center;
+}
+.in-connect-title {
+    font-size: 42px;
+    text-align: center;
+    position: relative;
+    color: white;
+    margin-bottom: 24px;
+    padding-top: 110px;
+}
+.in-connect-button {
+    height: 50px;
+    min-width: 184px;
+    border-radius: 5px;
+    border: none;
+    background: white;
+}
+.container10{
+    max-width:1215px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: transparent;
+
+}
+.imageindex{
+    width: 60px;
+    margin-top: 30px;
+}
+.footer-row{
+    display: flex;
+    justify-content: space-around;
+
+}
+.footerbox{
+    margin-top: 80px;
+    height: 500px;
+}
+.footer-col ul{
+    list-style: none;
+    line-height: 2.8;
+    
+}
+.footer-col a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
